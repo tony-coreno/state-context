@@ -2,12 +2,10 @@ import Card from "./components/Card";
 import Total from "./components/Total";
 
 const App = () => {
-
-
   return (
     <>
       <div className="container">
-        <h1>iShop</h1>
+        <h1 className="mt-2">Store</h1>
         <hr />
         <div className="container">
           <div className="row">

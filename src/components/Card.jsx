@@ -1,10 +1,11 @@
-import { useState } from "react";
+import { useContext } from "react";
 import { inventory } from "../data/db";
+import {stateStore} from '../context/ContextAPI';
 
 
 const Card = () => {
 
-  const [item, setItem] = useState([]);
+  const {item,setItem} = useContext(stateStore);
 
 
   return (
